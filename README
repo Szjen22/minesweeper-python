@@ -42,23 +42,6 @@ A játék célja: az összes aknamentes mező felfedése.
 
 🚀 A játék elindítása
 
-A játék kipróbálásához nem szükséges programozói tapasztalat.
-
-Egyszerű indítás
-
-Amennyiben az adott operációs rendszerhez már elérhető a kész alkalmazás:
-
-1. Nyisd meg a GitHub-projekt **Releases** részét.
-2. Töltsd le a számítógépednek megfelelő verziót.
-3. Csomagold ki a letöltött fájlt.
-4. Indítsd el az alkalmazást.
-
-A Windows-verzió `.exe`, a macOS-verzió `.app` formátumú.
-
-A nem digitálisan aláírt alkalmazások indításakor az operációs rendszer biztonsági figyelmeztetést jeleníthet meg.
-
-Indítás Python segítségével
-
 1. Python telepítése
 
 A Python hivatalos oldaláról tölthető le:
