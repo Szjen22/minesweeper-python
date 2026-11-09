@@ -1,0 +1,150 @@
+# 💣 Aknakereső – Python & Pygame
+
+**Modern, grafikus aknakereső játék Python nyelven, Pygame használatával.**
+
+A projekt célja egy klasszikus logikai játék újragondolása, modern felhasználói felülettel és átlátható, karbantartható programkóddal.
+
+A játékot saját fejlesztői portfólióm részeként készítettem, hogy bemutassam Python-programozási, problémamegoldási és szoftvertervezési ismereteimet.
+
+## 🎮 A játékról
+
+Az Aknakereső egy logikai játék, amelyben a játékos feladata megtalálni az összes biztonságos mezőt, miközben elkerüli az elrejtett aknákat.
+
+A mezőkön megjelenő számok azt mutatják, hogy a környező nyolc mezőben hány akna található.
+
+A játékos zászlókkal jelölheti a feltételezett aknákat.
+
+**A játék célja:** az összes aknamentes mező felfedése.
+
+## ✨ Funkciók
+
+- Három választható nehézségi szint
+- Modern, grafikus felhasználói felület
+- Biztonságos első kattintás
+- Játékidő mérése
+- Hátralévő aknák számlálása
+- Aknák megjelölése zászlóval
+- Rekordidők mentése
+- Új játék indítása
+- Győzelem és vereség automatikus felismerése
+- Érintőpadon is használható vezérlés
+
+## 🛠️ Felhasznált technológiák
+
+| Technológia | Felhasználás |
+|---|---|
+| Python | Játéklogika és alkalmazásfejlesztés |
+| Pygame | Grafikus felület és eseménykezelés |
+| OOP | Objektumorientált programtervezés |
+| JSON | Rekordok tárolása |
+| unittest | Automatikus tesztelés |
+| Git és GitHub | Verziókezelés |
+
+## 🚀 A játék elindítása
+
+**A játék kipróbálásához nem szükséges programozói tapasztalat.**
+
+### Egyszerű indítás
+
+Amennyiben az adott operációs rendszerhez már elérhető a kész alkalmazás:
+
+1. Nyisd meg a GitHub-projekt **Releases** részét.
+2. Töltsd le a számítógépednek megfelelő verziót.
+3. Csomagold ki a letöltött fájlt.
+4. Indítsd el az alkalmazást.
+
+A Windows-verzió `.exe`, a macOS-verzió `.app` formátumú.
+
+A nem digitálisan aláírt alkalmazások indításakor az operációs rendszer biztonsági figyelmeztetést jeleníthet meg.
+
+### Indítás Python segítségével
+
+**1. Python telepítése**
+
+A Python hivatalos oldaláról tölthető le:
+
+https://www.python.org/downloads/
+
+**2. Projekt letöltése**
+
+A GitHubon kattints a **Code → Download ZIP** lehetőségre, majd csomagold ki a projektet.
+
+**3. Terminál megnyitása**
+
+Windows alatt nyisd meg a projekt mappáját, majd a Fájlkezelő címsorába írd be: `cmd`.
+
+Macen nyisd meg a Terminált, írd be, hogy `cd `, majd húzd be a projekt mappáját, és nyomj Entert.
+
+**4. Szükséges csomagok telepítése**
+
+Windows:
+
+```bash
+py -m pip install -r requirements.txt
+```
+
+macOS:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+**5. Játék indítása**
+
+Windows:
+
+```bash
+py main.py
+```
+
+macOS:
+
+```bash
+python3 main.py
+```
+
+Sikeres indítás után megjelenik a játék ablaka.
+
+## 🕹️ Irányítás
+
+| Művelet | Irányítás |
+|---|---|
+| Mező felfedése | Bal egérgomb |
+| Akna megjelölése | Jobb egérgomb |
+| Zászló mód | Felületen található vezérlő |
+| Új játék | Új játék gomb |
+| Nehézségi szint módosítása | Nehézségválasztó |
+
+## 🧠 Technikai megvalósítás
+
+A fejlesztés során kiemelt figyelmet fordítottam a játéklogika és a megjelenítés elkülönítésére.
+
+A játéklogika kezeli az aknák elhelyezését, a szomszédos mezők vizsgálatát, a biztonságos mezők felfedését és a győzelmi feltételek ellenőrzését.
+
+A Pygame biztosítja a grafikus megjelenítést, a felhasználói interakciókat és a játék állapotának valós idejű frissítését.
+
+A rekordok mentése lehetővé teszi, hogy a játékos a későbbi játékalkalmak során is nyomon követhesse eredményeit.
+
+## 🧪 Tesztelés
+
+Az automatizált tesztek a játéklogika helyes működésének ellenőrzését szolgálják.
+
+A tesztek futtatása:
+
+```bash
+python3 -m unittest discover -s tests
+```
+
+## 👩‍💻 Fejlesztő
+
+**Szmolyán Jenni Adél**
+
+A Budapesti Műszaki és Gazdaságtudományi Egyetemen végzett üzemmérnök-informatikus.
+
+A projektet saját fejlesztői portfólióm részeként készítettem. Célom a szoftverfejlesztési ismereteim gyakorlati alkalmazása, a tiszta kód és a felhasználóbarát megoldások előtérbe helyezésével.
+
+**GitHub:** https://github.com/Szjen22
+
+---
+
+*Ha tetszett a projekt, örömmel fogadom a visszajelzéseket!*
