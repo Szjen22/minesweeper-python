@@ -1,4 +1,4 @@
-# 💣 Aknakereső – Python & Pygame
+💣 Aknakereső – Python & Pygame
 
 **Modern, grafikus aknakereső játék Python nyelven, Pygame használatával.**
 
@@ -6,7 +6,7 @@ A projekt célja egy klasszikus logikai játék újragondolása, modern felhaszn
 
 A játékot saját fejlesztői portfólióm részeként készítettem, hogy bemutassam Python-programozási, problémamegoldási és szoftvertervezési ismereteimet.
 
-## 🎮 A játékról
+🎮 A játékról
 
 Az Aknakereső egy logikai játék, amelyben a játékos feladata megtalálni az összes biztonságos mezőt, miközben elkerüli az elrejtett aknákat.
 
@@ -14,9 +14,9 @@ A mezőkön megjelenő számok azt mutatják, hogy a környező nyolc mezőben h
 
 A játékos zászlókkal jelölheti a feltételezett aknákat.
 
-**A játék célja:** az összes aknamentes mező felfedése.
+A játék célja: az összes aknamentes mező felfedése.
 
-## ✨ Funkciók
+✨ Funkciók
 
 - Három választható nehézségi szint
 - Modern, grafikus felhasználói felület
@@ -29,7 +29,7 @@ A játékos zászlókkal jelölheti a feltételezett aknákat.
 - Győzelem és vereség automatikus felismerése
 - Érintőpadon is használható vezérlés
 
-## 🛠️ Felhasznált technológiák
+🛠️ Felhasznált technológiák
 
 | Technológia | Felhasználás |
 |---|---|
@@ -40,11 +40,11 @@ A játékos zászlókkal jelölheti a feltételezett aknákat.
 | unittest | Automatikus tesztelés |
 | Git és GitHub | Verziókezelés |
 
-## 🚀 A játék elindítása
+🚀 A játék elindítása
 
-**A játék kipróbálásához nem szükséges programozói tapasztalat.**
+A játék kipróbálásához nem szükséges programozói tapasztalat.
 
-### Egyszerű indítás
+Egyszerű indítás
 
 Amennyiben az adott operációs rendszerhez már elérhető a kész alkalmazás:
 
@@ -57,25 +57,25 @@ A Windows-verzió `.exe`, a macOS-verzió `.app` formátumú.
 
 A nem digitálisan aláírt alkalmazások indításakor az operációs rendszer biztonsági figyelmeztetést jeleníthet meg.
 
-### Indítás Python segítségével
+Indítás Python segítségével
 
-**1. Python telepítése**
+1. Python telepítése
 
 A Python hivatalos oldaláról tölthető le:
 
 https://www.python.org/downloads/
 
-**2. Projekt letöltése**
+2. Projekt letöltése
 
 A GitHubon kattints a **Code → Download ZIP** lehetőségre, majd csomagold ki a projektet.
 
-**3. Terminál megnyitása**
+3. Terminál megnyitása
 
 Windows alatt nyisd meg a projekt mappáját, majd a Fájlkezelő címsorába írd be: `cmd`.
 
 Macen nyisd meg a Terminált, írd be, hogy `cd `, majd húzd be a projekt mappáját, és nyomj Entert.
 
-**4. Szükséges csomagok telepítése**
+4. Szükséges csomagok telepítése
 
 Windows:
 
@@ -105,7 +105,7 @@ python3 main.py
 
 Sikeres indítás után megjelenik a játék ablaka.
 
-## 🕹️ Irányítás
+🕹️ Irányítás
 
 | Művelet | Irányítás |
 |---|---|
@@ -115,7 +115,7 @@ Sikeres indítás után megjelenik a játék ablaka.
 | Új játék | Új játék gomb |
 | Nehézségi szint módosítása | Nehézségválasztó |
 
-## 🧠 Technikai megvalósítás
+🧠 Technikai megvalósítás
 
 A fejlesztés során kiemelt figyelmet fordítottam a játéklogika és a megjelenítés elkülönítésére.
 
@@ -125,7 +125,7 @@ A Pygame biztosítja a grafikus megjelenítést, a felhasználói interakciókat
 
 A rekordok mentése lehetővé teszi, hogy a játékos a későbbi játékalkalmak során is nyomon követhesse eredményeit.
 
-## 🧪 Tesztelés
+🧪 Tesztelés
 
 Az automatizált tesztek a játéklogika helyes működésének ellenőrzését szolgálják.
 
@@ -135,7 +135,7 @@ A tesztek futtatása:
 python3 -m unittest discover -s tests
 ```
 
-## 👩‍💻 Fejlesztő
+👩‍💻 Fejlesztő
 
 **Szmolyán Jenni Adél**
 
